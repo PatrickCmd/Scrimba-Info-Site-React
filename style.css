@@ -1,145 +1,138 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    background: #23252C;
+body {
+  background: #23252c;
+  margin: 0;
 }
 
 .container {
-    height: 100%;
-    margin: 44px 117px 44x 117px;
-    background: #1A1B21;
-    color: #FFFFFF;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+  background-color: #1a1b21;
+  color: white;
+  margin: 1rem auto;
+  width: 30%;
 }
 
 .info {
-    flex-wrap: wrap;
-    max-width: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile {
-    border-radius: 10px 10px 0px 0px;
-    width: 350px;
-    height: 350px;
+  border-radius: 10px 10px 0px 0px;
+  width: 431px;
+  height: 410px;
 }
 
 .profile-name {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .profile-title {
-    font-weight: 400;
-    font-size: 12.8px;
-    line-height: 15px;
-    text-align: center;
-    color: #F3BF99;
+  font-weight: 400;
+  font-size: 13.8px;
+  line-height: 15px;
+  color: #f3bf99;
+  margin-top: -0.5rem;
 }
 
 .profile-website {
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 150%;
-    /* identical to box height, or 15px */
-    text-align: center;
-    color: #F5F5F5;
+  font-weight: 400;
+  font-size: 11.24px;
+  line-height: 150%;
+  color: #f5f5f5;
+  margin-top: -0.5rem;
 }
 
 .profile-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
 }
 
+.top-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 115px;
+  align-items: center;
+  border: none;
+  padding: 9px 18px;
+}
 .profile-contact-email {
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 9px 13px 9px 11px;
-    
-    /* white */
-    background: #FFFFFF;
-    /* gray/300 */
-    border: 1px solid #D1D5DB;
-    box-sizing: border-box;
-    /* shadow/sm */
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 114% */
-    /* gray/700 */
-    color: #374151;
-    margin: auto;
+  /* white */
+  background: #ffffff;
+  /* gray/300 */
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  /* gray/700 */
+  color: #374151;
 }
 
 .profile-contact-linkedin {
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 9px 13px 9px 11px;
-    background: #5093E2;
-    /* shadow/sm */
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 114% */
-    color: #FFFFFF;
-    margin: auto;
+  background: #5093e2;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  color: #ffffff;
 }
 
-.about, .interests {
-    padding: 0 20px;
-    justify-content: center;
-    align-items: center;
+.about,
+.interests {
+  padding: 0 40px;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-title, .interests-title {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-    color: #F5F5F5;
+.about-title,
+.interests-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #f5f5f5;
 }
 
-.about-experience, .interests-items {
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 150%;
-    /* or 15px */
-    color: #DCDCDC;
+.about-experience,
+.interests-items {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 15px */
+  color: #dcdcdc;
 }
 
 .footer {
-    display: flex;
-    background: #161619;
-    border-radius: 0px 0px 10px 10px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
-    display: flex;
-    list-style-type: none;
-}
-
-.fa {
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  list-style-type: none;
+  padding: 0;
 }

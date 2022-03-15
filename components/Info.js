@@ -1,4 +1,5 @@
 import React from "react";
+import { EmailIcon, LinkedInIcon } from '../icons'
 
 
 export default function Info() {
@@ -9,13 +10,11 @@ export default function Info() {
             <h3 className="profile-title">Backend Engineer (Python-Django)/Data Scientist/Data Engineer</h3>
             <h4 className="profile-website">patrickcmd.io</h4>
             <div className="profile-contact">
-                <button type="button" className="profile-contact-email">
-                    <img src="../images/email.png" />
-                    Email
+                <button type="button" className="profile-contact-email top-btn">
+                   <EmailIcon /> Email
                 </button>
-                <button type="button" className="profile-contact-linkedin">
-                    <img src="../images/linkedin.png"/>
-                    LinkedIn
+                <button type="button" className="profile-contact-linkedin top-btn">
+                    <LinkedInIcon /> LinkedIn
                 </button>
             </div>
         </div>
