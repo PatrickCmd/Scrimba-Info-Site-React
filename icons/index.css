@@ -1,0 +1,37 @@
+.email-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.linkedin-icon {
+  background: white;
+  padding: 0.25rem;
+  fill: #5093e2;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.github-icon {
+  background: gray;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  width: 1.75rem;
+  height: 1.7rem;
+}
+
+.github-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.instagram-icon .st0 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
